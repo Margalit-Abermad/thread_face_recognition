@@ -3,14 +3,11 @@ import datetime
 
 
 # TO1DO - get the data from JSON / XML file
-server = '.' #192.168.14.185
+server = '.'
 database = 'face_rec1'
 
 connection_string = f'DRIVER={{SQL Server}};SERVER={server};DATABASE={database}'
 
-
-# username = 'py'
-# password = 'M2018@'
 
 #region functions of Cameras table
 
